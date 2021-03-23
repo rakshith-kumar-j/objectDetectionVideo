@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-INSTALLDIR="${INTEL_OPENVINO_DIR:-/opt/intel/openvino_2020.4.287}"
+INSTALLDIR="${INTEL_OPENVINO_DIR:-/openvino}"
 if [[ ! -d "${INSTALLDIR}" ]]; then
   # Script has not been processed by installer, so INSTALLDIR is not valid
   # Using autodetection assuming:
